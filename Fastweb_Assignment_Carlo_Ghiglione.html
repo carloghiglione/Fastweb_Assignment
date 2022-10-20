@@ -14649,7 +14649,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\Utente\AppData\Local\Temp\ipykernel_14012\3168505073.py:12: MatplotlibDeprecationWarning: The seaborn styles shipped by Matplotlib are deprecated since 3.6, as they no longer correspond to the styles shipped by seaborn. However, they will remain available as &#39;seaborn-v0_8-&lt;style&gt;&#39;. Alternatively, directly use the seaborn API instead.
+<pre>C:\Users\Utente\AppData\Local\Temp\ipykernel_6596\3168505073.py:12: MatplotlibDeprecationWarning: The seaborn styles shipped by Matplotlib are deprecated since 3.6, as they no longer correspond to the styles shipped by seaborn. However, they will remain available as &#39;seaborn-v0_8-&lt;style&gt;&#39;. Alternatively, directly use the seaborn API instead.
   plt.style.use(&#39;seaborn&#39;)
 </pre>
 </div>
@@ -15966,7 +15966,7 @@ class="
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Class-Imbalance">Class Imbalance<a class="anchor-link" href="#Class-Imbalance">&#182;</a></h3><p>To deal with class imbalance of the target, I do:</p>
 <ol>
-<li>Fit classifiers with weighted classes with weights inversally proportional to the relative frequencies.</li>
+<li>Fit classifiers with weighted classes with weights inversely proportional to the relative frequencies.</li>
 <li>Evaluate the models with metrics focusing only on the target class of interest ('yes'), that is using Precision, Recall and F1-Score.</li>
 </ol>
 <p>Another possibility would be to under-sample or over-sample the dataset to obtain a balanced dataset.</p>
@@ -16574,7 +16574,7 @@ Cross-validation results
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[CV] END  accuracy: (test=0.906) f1: (test=0.484) precision: (test=0.395) recall: (test=0.625) total time=  16.0s
+<pre>[CV] END  accuracy: (test=0.906) f1: (test=0.484) precision: (test=0.395) recall: (test=0.625) total time=  21.8s
 </pre>
 </div>
 </div>
@@ -16584,7 +16584,7 @@ Cross-validation results
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   16.0s remaining:    0.0s
+<pre>[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   21.8s remaining:    0.0s
 </pre>
 </div>
 </div>
@@ -16594,7 +16594,7 @@ Cross-validation results
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[CV] END  accuracy: (test=0.905) f1: (test=0.481) precision: (test=0.406) recall: (test=0.592) total time=  15.4s
+<pre>[CV] END  accuracy: (test=0.905) f1: (test=0.481) precision: (test=0.406) recall: (test=0.592) total time=  23.7s
 </pre>
 </div>
 </div>
@@ -16604,7 +16604,7 @@ Cross-validation results
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   31.5s remaining:    0.0s
+<pre>[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   45.7s remaining:    0.0s
 </pre>
 </div>
 </div>
@@ -16614,9 +16614,9 @@ Cross-validation results
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[CV] END  accuracy: (test=0.911) f1: (test=0.488) precision: (test=0.413) recall: (test=0.597) total time=  15.4s
-[CV] END  accuracy: (test=0.908) f1: (test=0.494) precision: (test=0.419) recall: (test=0.601) total time=  15.8s
-[CV] END  accuracy: (test=0.914) f1: (test=0.533) precision: (test=0.458) recall: (test=0.638) total time=  15.5s
+<pre>[CV] END  accuracy: (test=0.911) f1: (test=0.488) precision: (test=0.413) recall: (test=0.597) total time=  24.2s
+[CV] END  accuracy: (test=0.908) f1: (test=0.494) precision: (test=0.419) recall: (test=0.601) total time=  22.3s
+[CV] END  accuracy: (test=0.914) f1: (test=0.533) precision: (test=0.458) recall: (test=0.638) total time=  21.2s
 </pre>
 </div>
 </div>
@@ -16626,7 +16626,7 @@ Cross-validation results
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.3min finished
+<pre>[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.9min finished
 </pre>
 </div>
 </div>
